@@ -1,0 +1,53 @@
+/*
+*Chloe Wenner
+*5/13/19
+*Box Model
+*/
+
+/* The universal selector*/
+
+* { 
+margin: 0;
+padding: 0;/*zeros out the margin and padding so the page is squished together*/
+} 
+
+
+body {
+/*changes body height and width to fit the page*/
+height:200px;
+width:580px;
+padding:4px;
+border: 3px dotted black;
+margin: 10px;
+}
+
+main{
+height: 160px;/*changes the height and width*/
+width: 520px;
+border: 2px solid /*solid line as the border*/black;  
+padding: 1px/*top*/ 2px/*right*/ 1px/*bottom*/ 1px/*left*/;
+margin: 10px;
+}
+
+h1{
+height:45px;
+width:500px;
+padding: 1px/*top*/ .5px/*right*/ .5px/*bottom*/ 1px/*left*/;
+border-top: 1px dashed/*dashed line as the border*/ black;
+border-right: 1px dashed black;
+border-bottom:1px dashed black;
+border-left: 1px dashed black;
+margin: 10px;/*adds space between each border*/
+}
+  
+
+p{
+height:75px;
+width:500px;
+padding: 1px .5px .5px 1px;
+border-top: 1px dashed black;
+border-right: 1px dashed black;
+border-bottom:1px dashed black;
+border-left: 1px dashed black;   
+margin:10px;
+}
